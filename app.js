@@ -38,15 +38,15 @@ app.post("/campgrounds",function(req,res){
             res.redirect("/campgrounds"); 
         }
     });
-   
 });
+
 app.get("/campgrounds/new",function(req,res){
     res.render("new");
 });
 
 // SHOW--- shows more info about one campground
 app.get("/campgrounds/:id",function(req,res){
-    Campground.findById(req.params.id,function(err,foundCampground){
+    Campground.findById(req.params.id).populate("comments").exec(function(err,foundCampground){
         if(err){
             console.log(err);
         }else{
