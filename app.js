@@ -2,9 +2,11 @@ var express     = require('express'),
     app         = express(), 
     bodyParser  = require("body-parser"),
     mongoose    = require('mongoose'),
-    Campground  = require("./models/campground");
+    Campground  = require("./models/campground"),
+    seedDB      = require("./seed");
 
-    mongoose.connect("mongodb://localhost/campzone",{useNewUrlParser: true, useUnifiedTopology: true});
+seedDB();
+mongoose.connect("mongodb://localhost/campzone",{useNewUrlParser: true, useUnifiedTopology: true});
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs");
