@@ -6,17 +6,18 @@ var data = [
     {   
         name:"Cloud's Rest",
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfmBmGbegUyRnuIV69-ZXuyHRBUquN4IR3Q&usqp=CAU",
-        description: "blah blah blah"
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {   
         name:"Desert Mesa",
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ34TnmApx-R7pKjp6lSwKhlQvWfdvxIlM5NA&usqp=CAU",
-        description: "blah blah blah I'm in"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
     },
     {   
         name:"Canayon floor",
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvpcTSQDaeT8mMn0PxkcQZYnSTrB3NB9AKjA&usqp=CAU",
-        description: "Bootiful Place..."
+        description: "Bootiful Place...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ];
 function seedDB(){
