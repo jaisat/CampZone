@@ -14,7 +14,7 @@ var commentRoutes    = require('./routes/comments'),
     campgroundRoutes = require('./routes/campgrounds'),
     indexRoutes       = require('./routes/index');
 
-seedDB();
+// seedDB();
 mongoose.connect("mongodb://localhost/campzone",{useNewUrlParser: true, useUnifiedTopology: true});
 
 app.use(bodyParser.urlencoded({extended:true}));
